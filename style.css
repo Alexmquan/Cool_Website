@@ -86,3 +86,89 @@ img {
 .m2 {
   margin: 6;
 }
+
+/* Media Query Section */
+
+@media (max-width: 768px) {
+  header {
+
+    display: flex;
+    justify-content: center;
+    border: black 3px solid;
+  }
+
+  header p {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    padding: 2vh;
+  }
+
+
+  body {
+    margin: 0;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  footer {
+    height: 10vh;
+  }
+
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+
+  .sect-design {
+    padding-top: 1em blue solid;
+    margin-top: 1em;
+    width: 80vw;
+    font-size: large;
+  }
+
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    border-top: 1.5rem rgb(126, 156, 190) solid;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: end;
+  }
+
+
+  .media-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin-top: 3rem;
+  }
+}
+
+/* Utilities  */
+
+.d-flex {
+  display: flex;
+
+
+
+
+}
