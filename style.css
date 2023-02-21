@@ -1,5 +1,5 @@
 header {
-  background-color: #294597;
+
   display: flex;
   justify-content: center;
   border: black 3px solid;
@@ -21,7 +21,6 @@ span {
 }
 
 footer {
-  background-color: #314b99;
   height: 20vh;
 }
 
@@ -34,7 +33,8 @@ footer {
 .sect-design {
   padding-top: 1em blue solid;
   margin-top: 1em;
-  width: 25vw;
+  width: 30vw;
+  font-size: large;
 }
 
 h1 {
@@ -42,6 +42,10 @@ h1 {
   justify-content: center;
   padding-top: 1em;
   border-top: 1.5rem rgb(126, 156, 190) solid;
+}
+
+h3 {
+  margin: 0;
 }
 
 img {
@@ -71,5 +75,14 @@ img {
 }
 
 .r-margin {
-  margin-right: 20em;
+  margin-right: 15em;
+}
+
+.hf {
+  background-color: #294597;
+  border: black 3px solid;
+}
+
+.m2 {
+  margin: 6;
 }
