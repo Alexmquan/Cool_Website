@@ -1,0 +1,75 @@
+header {
+  background-color: #294597;
+  display: flex;
+  justify-content: center;
+  border: black 3px solid;
+}
+
+header p {
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  padding: 3vh;
+}
+
+body {
+  margin: 0;
+}
+
+span {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #314b99;
+  height: 20vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.sect-design {
+  padding-top: 1em blue solid;
+  margin-top: 1em;
+  width: 25vw;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+  border-top: 1.5rem rgb(126, 156, 190) solid;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: end;
+}
+
+.media-sect {
+  width: 12vw;
+  margin-top: 3rem;
+}
+
+/* Utilities */
+
+.d-flex {
+  display: flex;
+}
+
+.content-m {
+  margin: 3em;
+}
+
+.p2 {
+  padding: 1rem;
+}
+
+.r-margin {
+  margin-right: 20em;
+}
