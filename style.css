@@ -104,7 +104,6 @@ img {
     padding: 2vh;
   }
 
-
   body {
     margin: 0;
   }
@@ -117,13 +116,11 @@ img {
     height: 10vh;
   }
 
-
   .content {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
-
 
   .sect-design {
     padding-top: 1em blue solid;
@@ -131,7 +128,6 @@ img {
     width: 80vw;
     font-size: large;
   }
-
 
   h1 {
     display: flex;
@@ -144,15 +140,12 @@ img {
     margin: 0;
   }
 
-
-
   img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: end;
   }
-
 
   .media-sect {
     display: flex;
@@ -161,14 +154,4 @@ img {
     width: 80vw;
     margin-top: 3rem;
   }
-}
-
-/* Utilities  */
-
-.d-flex {
-  display: flex;
-
-
-
-
 }
